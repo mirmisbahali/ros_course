@@ -1,0 +1,12 @@
+/number_publisher:
+  ros__parameters:
+    number: 2
+    timer_period: 0.7
+
+/robot_news_station:
+  ros__parameters:
+    robot_name: Misri
+
+/led_panel:
+  ros__parameters:
+    led_states: [0,0,0]
