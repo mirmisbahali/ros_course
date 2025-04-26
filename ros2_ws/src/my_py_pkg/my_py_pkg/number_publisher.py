@@ -12,7 +12,7 @@ class NumberPublisher(Node):
 
     def publish_number(self):
         msg = Int64()
-        msg.data = 123
+        msg.data = 2
         self.publisher_.publish(msg)
 
 
