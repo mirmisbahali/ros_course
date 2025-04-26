@@ -29,7 +29,9 @@ setup(
             "add_two_ints_client = my_py_pkg.add_two_ints_client:main",
             "number_publisher = my_py_pkg.number_publisher:main",
             "number_counter = my_py_pkg.number_counter:main",
-            "hw_status_publisher = my_py_pkg.hardware_status_publisher:main"
+            "hw_status_publisher = my_py_pkg.hardware_status_publisher:main",
+            "led_panel = my_py_pkg.led_panel_node:main",
+            "battery = my_py_pkg.battery_node:main",
         ],
     },
 )
