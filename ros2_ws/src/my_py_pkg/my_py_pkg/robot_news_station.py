@@ -13,7 +13,7 @@ class RobotNewsStationNode(Node):
 
     def publish_news(self):
         msg = String()
-        msg.data = "Hello"
+        msg.data = f'Hi, this is {self.name} from the Robot News Station!'
         self.publisher_.publish(msg)
 
 
